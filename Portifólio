@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio pessoal sobre meus passatempos">
+    <meta name="keywords" content="HTML, CSS, Portfólio">
+    <meta name="author" content="Bernardo de Lima Machado">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #030303;
+        }
+        h1, h2, h3 {
+            color: #7304f3;
+        }
+        a {
+            color: #0594f3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        section {
+            margin-bottom: 40px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>  
+    <header>
+        <h1>Portfólio Pessoal, Bernardo de Lima Machado</h1>
+        <nav>
+            <ul>
+                <li><a href="#hobbies">Meus Passatempos</a></li>
+                <li><a href="#links">Links dos Passatempos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#tabela">Tabela de Dados</a></li>
+                <li><a href="#iframe">Video para passar o tempo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hobbies">
+            <h2>Meus Passatempos:</h2>
+            <ul>
+                <li>Jogar</li>
+                <p>Gosto de jogar vários jogos, mas no momento eu jogo mais Valorant e League of Legends.</p>
+                <img src="lol.jpg" alt="Imagem do jogo League of Legends" />
+                <img src="valorant.jpg" alt="Imagem do jogo Valorant" />
+                <hr>
+                <li>Cozinhar</li>
+                <p>Gosto de ver receitas nas redes sociais e algumas eu salvo para testar!</p>
+                <img src="pizza.jpg" alt="Imagem de uma pizza" />
+                <img src="espaguete.jpg" alt="Imagem de um espaguete" />
+                <hr>
+                <li>Treinar</li>
+                <p>Gosto de ir treinar na academia todos os dias da semana.</p>
+                <img src="academia2.jpg" alt="Imagem de exercícios de academia" />
+                <img src="academia.jpg" alt="Imagem de exercícios de academia" />
+                <hr>
+                <li>Assistir Série</li>
+                <p>Assisto várias séries ou desenhos, depende do que eu estiver com vontade de ver na hora.</p>
+                <img src="house.jpg" alt="Imagem da série House" />
+                <img src="rick_and_morty.jpg" alt="Imagem do desenho Rick and Morty" />
+            </ul>       
+        </section>
+
+        <section id="links">
+            <h2>Links para acessar sites dos passatempos:</h2>
+            <ul>
+                <li>
+                    <h3>Site dos jogos:</h3>
+                    <p>Aqui são os sites para download e informações sobre os jogos.</p>
+                    <a href="https://www.leagueoflegends.com/pt-br/">League of Legends</a>
+                    <br>
+                    <a href="https://www.leagueofgraphs.com/pt/">Informações do League of Legends</a>
+                    <br>
+                    <a href="https://playvalorant.com/pt-br/">Valorant</a>
+                    <br>
+                    <a href="https://tracker.gg/valorant">Informações do Valorant</a>
+                </li>
+                <li>
+                    <h3>Receitas:</h3>
+                    <p>Aqui estão alguns links de pessoas que fazem receitas.</p>
+                    <a href="https://www.tiktok.com/@cheffotto">Chef Oto</a> 
+                    <img src="oto.jpg" alt="Imagem do canal do Chef Oto" />
+                    <br>
+                    <a href="https://www.tiktok.com/@cozinheirotommy">Cozinheiro Tommy</a> 
+                    <img src="tommy.jpg" alt="Imagem do canal do Cozinheiro Tommy" />
+                    <br>
+                    <a href="https://www.youtube.com/@anazambrin/videos">Ana Zambrin</a> 
+                    <img src="ana.jpg" alt="Imagem do canal da Ana Zambrin"/>
+                    <br>
+                    <a href="https://www.youtube.com/@SauSampaio">Sau Sampaio</a> 
+                    <img src="sau.jpg" alt="Imagem do canal do Sau Sampaio" />
+                    <br>
+                    <p>Link para receitas saudáveis:</p> 
+                    <a href="https://www.asbran.org.br/storage/downloads/files/2020/04/nutribook-receitas-praticas-e-saudaveis.pdf">Receitas</a>
+                    <hr>
+                    <p>Para os exercícios da academia eu não olho vídeo, sigo o que o instrutor me diz.</p>
+                    <p>As séries e desenhos eu assisto nos serviços de streaming, como Netflix, Amazon Prime, etc.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form action="mailto:seuemail@example.com" method="post" enctype="text/plain">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section id="tabela">
+            <h2>Tabela de Dados</h2>
+            <table border="1">
+                <caption>Tabela do Portifólio</caption>
+                <thead>
+                    <tr>
+                        <th>Hobby</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jogar</td>
+                        <td>Gosto de jogar vários jogos, especialmente League of Legends e Valorant.</td>
+                    </tr>
+                    <tr>
+                        <td>Cozinhar</td>
+                        <td>Adoro testar novas receitas que encontro online.</td>
+                    </tr>
+                    <tr>
+                        <td>Treinar</td>
+                        <td>Treino na academia de segunda à sábado.</td>
+                    </tr>
+                    <tr>
+                        <td>Assistir Série</td>
+                        <td>Gosto de séries e desenhos animados.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="iframe">
+            <h2>Vídeo para Passar o tempo</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="Vídeo de Exemplo" frameborder="0" allowfullscreen></iframe>
+            <p>Veja este vídeo dos muppets!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Portfólio de Passatempos</p>
+    </footer>
+</body>
+</html>
